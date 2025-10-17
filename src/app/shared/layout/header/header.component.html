@@ -1,0 +1,50 @@
+<!-- Main Header -->
+<header class="bg-slate-900 text-white">
+  <!-- Top Navigation Bar -->
+  <div class="flex items-center justify-between px-6 py-3">
+    <!-- Right side - Language and Navigation -->
+    <div class="flex items-center space-x-6 space-x-reverse">
+      <span class="text-sm font-medium">Ar</span>
+      <nav class="flex space-x-4 space-x-reverse">
+        <a *ngFor="let item of navigationItems"
+           [href]="item.route"
+           class="text-sm hover:text-primary-foreground/80 transition-colors">
+          {{ item.label }}
+        </a>
+      </nav>
+    </div>
+
+    <!-- Left side - User Info -->
+    <div class="flex items-center space-x-4 space-x-reverse">
+      <span class="text-sm">{{ currentUser.id }}</span>
+      <span class="text-sm font-medium">{{ currentUser.name }}</span>
+    </div>
+  </div>
+
+  <!-- Sub Header -->
+  <div class="bg-slate-800 px-6 py-2">
+    <div class="flex items-center justify-between">
+      <!-- Left side - Status and Navigation -->
+      <div class="flex items-center space-x-4 space-x-reverse">
+        <button class="bg-destructive hover:bg-destructive/90 text-destructive-foreground px-4 py-1 rounded text-sm font-medium">
+          مكتمل
+        </button>
+        <div class="flex items-center space-x-2 space-x-reverse">
+          <button class="text-primary-foreground hover:text-primary-foreground/80">←</button>
+          <span class="text-sm">days.L (+4)</span>
+          <button class="text-primary-foreground hover:text-primary-foreground/80">→</button>
+        </div>
+        <span class="text-sm">ابتسام أبو معمر (150)</span>
+      </div>
+
+      <!-- Right side - Program Info -->
+      <div class="flex items-center space-x-4 space-x-reverse">
+        <span class="text-sm">برنامج جديد 1-10-25</span>
+        <div class="flex space-x-2 space-x-reverse">
+          <button class="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-3 py-1 rounded text-sm">صنوف</button>
+          <button class="bg-secondary hover:bg-secondary/90 text-secondary-foreground px-3 py-1 rounded text-sm">معلمون</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

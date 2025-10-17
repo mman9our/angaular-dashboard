@@ -1,0 +1,28 @@
+import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
+
+@Component({
+  selector: 'app-header',
+  standalone: true,
+  imports: [CommonModule],
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css'],
+})
+export class HeaderComponent {
+  navigationItems = [
+    { label: 'برنامج', route: '/schedule' },
+    { label: 'ادارة', route: '/management' },
+    { label: 'تقارير', route: '/reports' },
+    { label: 'استراحة', route: '/break' },
+    { label: 'موافقة المسؤول', route: '/admin-approval' },
+    { label: 'اضطرارات', route: '/emergencies' },
+    { label: 'بديل', route: '/substitute' },
+    { label: 'تقارير الغياب', route: '/absence-reports' },
+    { label: 'المناوبات', route: '/shifts' },
+  ];
+
+  currentUser = {
+    name: 'super admin',
+    id: '2026-2025-(618371) لاادين',
+  };
+}

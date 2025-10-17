@@ -1,0 +1,30 @@
+/* Dashboard page specific styles */
+.dashboard-container {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL-specific adjustments for cards */
+.dashboard-card {
+  text-align: right;
+}
+
+/* Ensure proper spacing for RTL layout */
+.dashboard-card h3 {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-card p {
+  text-align: right;
+}
+
+/* RTL grid adjustments */
+.grid {
+  direction: rtl;
+}
+
+/* Arabic number formatting */
+.arabic-numbers {
+  font-feature-settings: "lnum";
+}

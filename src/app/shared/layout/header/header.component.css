@@ -1,0 +1,26 @@
+/* Header specific styles */
+header {
+  direction: rtl;
+  text-align: right;
+}
+
+nav a {
+  white-space: nowrap;
+}
+
+/* RTL spacing adjustments */
+.space-x-reverse > * + * {
+  margin-right: 0.5rem;
+  margin-left: 0;
+}
+
+/* Hover effects */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Button hover effects */
+button:hover {
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
