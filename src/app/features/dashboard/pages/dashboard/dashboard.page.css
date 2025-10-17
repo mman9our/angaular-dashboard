@@ -1,30 +1,23 @@
 /* Dashboard page specific styles */
-.dashboard-container {
+.dashboard-page {
   direction: rtl;
   text-align: right;
 }
 
-/* RTL-specific adjustments for cards */
-.dashboard-card {
-  text-align: right;
+/* Page header styling */
+.dashboard-page h1 {
+  font-family: var(--font-family-primary);
+  color: hsl(var(--foreground));
 }
 
-/* Ensure proper spacing for RTL layout */
-.dashboard-card h3 {
-  text-align: right;
-  margin-bottom: 0.5rem;
+.dashboard-page p {
+  font-family: var(--font-family-primary);
+  color: hsl(var(--muted-foreground));
 }
 
-.dashboard-card p {
-  text-align: right;
-}
-
-/* RTL grid adjustments */
-.grid {
-  direction: rtl;
-}
-
-/* Arabic number formatting */
-.arabic-numbers {
-  font-feature-settings: "lnum";
+/* Responsive design */
+@media (max-width: 768px) {
+  .dashboard-page h1 {
+    font-size: 1.5rem;
+  }
 }

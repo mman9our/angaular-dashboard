@@ -1,39 +1,9 @@
-<div class="font-cairo dashboard-container">
-  <div class="max-w-7xl mx-auto">
-    <h1 class="text-4xl font-bold text-foreground mb-8">لوحة التحكم</h1>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
-      <div class="bg-card border border-border rounded-lg p-6 shadow-sm dashboard-card">
-        <h3 class="text-sm font-medium text-muted-foreground">إجمالي الطلاب</h3>
-        <p class="text-3xl font-bold text-card-foreground arabic-numbers">1,245</p>
-        <p class="text-sm text-chart-1">+12% من الشهر الماضي</p>
-      </div>
-
-      <div class="bg-card border border-border rounded-lg p-6 shadow-sm dashboard-card">
-        <h3 class="text-sm font-medium text-muted-foreground">إجمالي المعلمين</h3>
-        <p class="text-3xl font-bold text-card-foreground arabic-numbers">85</p>
-        <p class="text-sm text-chart-2">+3% من الشهر الماضي</p>
-      </div>
-
-      <div class="bg-card border border-border rounded-lg p-6 shadow-sm dashboard-card">
-        <h3 class="text-sm font-medium text-muted-foreground">الفصول النشطة</h3>
-        <p class="text-3xl font-bold text-card-foreground arabic-numbers">42</p>
-        <p class="text-sm text-chart-3">+5% من الشهر الماضي</p>
-      </div>
-
-      <div class="bg-card border border-border rounded-lg p-6 shadow-sm dashboard-card">
-        <h3 class="text-sm font-medium text-muted-foreground">معدل الحضور</h3>
-        <p class="text-3xl font-bold text-card-foreground arabic-numbers">94.2%</p>
-        <p class="text-sm text-chart-4">+2.1% من الشهر الماضي</p>
-      </div>
-    </div>
-
-    <div class="bg-card border border-border rounded-lg p-6 shadow-sm dashboard-card">
-      <h2 class="text-2xl font-bold text-card-foreground mb-4">مرحباً بك في نظام إدارة مدرسة فارابيو</h2>
-      <p class="text-muted-foreground">
-        هذا نظام إدارة مدرسة حديث مبني باستخدام Angular و Tailwind CSS.
-        التطبيق يتبع معمارية نظيفة مع تنظيم قائم على الميزات.
-      </p>
-    </div>
+<div class="dashboard-page">
+  <div class="mb-6">
+    <h1 class="text-3xl font-bold text-foreground mb-2">لوحة التحكم</h1>
+    <p class="text-muted-foreground">مرحباً بك في نظام إدارة المدرسة</p>
   </div>
+
+  <!-- Schedule Table Component -->
+  <app-schedule-table></app-schedule-table>
 </div>

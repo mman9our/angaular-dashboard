@@ -22,7 +22,8 @@ export class HeaderComponent {
   ];
 
   currentUser = {
-    name: 'super admin',
-    id: '2026-2025-(618371) لاادين',
+    name: 'Super Admin',
+    role: 'مدير النظام',
+    id: 'SA001',
   };
 }

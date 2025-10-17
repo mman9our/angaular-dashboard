@@ -1,0 +1,54 @@
+/* Schedule table specific styles */
+.schedule-container {
+  direction: rtl;
+  text-align: right;
+}
+
+/* RTL-specific adjustments for table */
+.schedule-container table {
+  direction: rtl;
+}
+
+/* Ensure proper spacing for RTL layout */
+.schedule-container h3 {
+  text-align: right;
+  margin-bottom: 0.5rem;
+}
+
+.schedule-container p {
+  text-align: right;
+}
+
+/* RTL grid adjustments */
+.grid {
+  direction: rtl;
+}
+
+/* Arabic number formatting */
+.arabic-numbers {
+  font-feature-settings: "lnum";
+}
+
+/* Table cell hover effects */
+.schedule-container .grid > div:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Period number styling */
+.schedule-container .text-lg {
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+/* Subject name styling */
+.schedule-container .font-medium {
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Teacher name styling */
+.schedule-container .text-xs {
+  opacity: 0.8;
+  line-height: 1.3;
+}
