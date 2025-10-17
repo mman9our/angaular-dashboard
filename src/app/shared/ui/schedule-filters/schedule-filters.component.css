@@ -1,0 +1,45 @@
+/* Schedule Filters Styles */
+select {
+  direction: rtl;
+  text-align: right;
+}
+
+select:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+}
+
+/* Custom select styling for better RTL support */
+select option {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .flex-col {
+    gap: 0.75rem;
+  }
+
+  select {
+    min-width: 100%;
+  }
+}
+
+/* Filter status styling */
+.text-slate-500 {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+/* Button hover effects */
+button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus states for accessibility */
+button:focus {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

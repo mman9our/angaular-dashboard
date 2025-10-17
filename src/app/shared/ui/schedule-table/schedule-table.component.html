@@ -1,5 +1,10 @@
 <div class="font-cairo schedule-container">
   <div class="max-w-full mx-auto">
+    <!-- Schedule Filters -->
+    <app-schedule-filters
+      (filtersChanged)="onFiltersChanged($event)">
+    </app-schedule-filters>
+
     <!-- Schedule Table -->
     <div class="bg-white border border-border rounded-lg overflow-hidden shadow-sm">
         <!-- Table Header -->
@@ -19,12 +24,19 @@
           </div>
           <!-- Subjects -->
           <div *ngFor="let subject of period.subjects; let isLast = last"
-               class="p-3 text-sm"
+               class="p-3 text-sm cursor-pointer transition-all duration-300 relative"
                [class]="getSubjectColor(subject.id).color + ' ' + getSubjectColor(subject.id).textColor"
                [class.border-l]="!isLast"
-               [class.border-border]="!isLast">
+               [class.border-border]="!isLast"
+               [class.subject-highlighted]="isSubjectHighlighted(subject.id)"
+               [class.subject-dimmed]="isSubjectDimmed(subject.id)"
+               [class.subject-normal]="!isSubjectHighlighted(subject.id) && !isSubjectDimmed(subject.id)"
+               (click)="onSubjectClick(subject.id)">
             <div class="font-medium">{{ subject.name }}</div>
             <div class="text-xs">{{ subject.teacher }}</div>
+            <!-- Selection indicator -->
+            <div *ngIf="isSubjectHighlighted(subject.id)"
+                 class="absolute top-1 right-1 w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
           </div>
         </div>
       </div>

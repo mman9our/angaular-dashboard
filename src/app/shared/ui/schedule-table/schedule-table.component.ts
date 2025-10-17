@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ScheduleFiltersComponent } from '../schedule-filters/schedule-filters.component';
 
 interface Subject {
   id: string;
@@ -17,12 +18,15 @@ interface Period {
 @Component({
   selector: 'app-schedule-table',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ScheduleFiltersComponent],
   templateUrl: './schedule-table.component.html',
   styleUrls: ['./schedule-table.component.css'],
 })
 export class ScheduleTableComponent {
   days = ['الأحد', 'الاثنين', 'الثلاثاء', 'الأربعاء', 'الخميس'];
+
+  // Subject selection state
+  selectedSubjectId: string | null = null;
 
   // Subject color mapping - each subject gets a consistent color with modern design
   subjectColors: { [key: string]: { color: string; textColor: string } } = {
@@ -47,6 +51,30 @@ export class ScheduleTableComponent {
     return (
       this.subjectColors[subjectId] || { color: 'bg-muted', textColor: 'text-muted-foreground' }
     );
+  }
+
+  // Filter handling
+  onFiltersChanged(filters: { selectedClass: string; selectedTeacher: string }) {}
+
+  // Subject selection handling
+  onSubjectClick(subjectId: string) {
+    if (this.selectedSubjectId === subjectId) {
+      // If clicking the same subject, deselect it
+      this.selectedSubjectId = null;
+    } else {
+      // Select the new subject
+      this.selectedSubjectId = subjectId;
+    }
+  }
+
+  // Check if a subject should be highlighted
+  isSubjectHighlighted(subjectId: string): boolean {
+    return this.selectedSubjectId === subjectId;
+  }
+
+  // Check if a subject should be dimmed (not selected but other subjects are)
+  isSubjectDimmed(subjectId: string): boolean {
+    return this.selectedSubjectId !== null && this.selectedSubjectId !== subjectId;
   }
 
   schedule: Period[] = [
