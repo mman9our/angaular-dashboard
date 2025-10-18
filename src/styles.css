@@ -11,14 +11,3 @@ body {
   direction: rtl;
   text-align: right;
 }
-
-/* RTL-specific utility classes */
-.rtl {
-  direction: rtl;
-  text-align: right;
-}
-
-.ltr {
-  direction: ltr;
-  text-align: left;
-}

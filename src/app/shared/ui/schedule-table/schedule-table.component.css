@@ -97,16 +97,6 @@
   box-shadow: 0 6px 16px rgba(59, 130, 246, 0.4);
 }
 
-/* Selection indicator animation */
-@keyframes highlight-pulse {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.6;
-  }
-}
-
 /* Smooth transitions for all subject states */
 .schedule-container .grid > div {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -116,17 +106,4 @@
 .schedule-container .grid > div:focus {
   outline: 2px solid #3b82f6;
   outline-offset: 2px;
-}
-
-/* Mobile responsiveness for highlighting */
-@media (max-width: 640px) {
-  .subject-highlighted {
-    transform: scale(1.01);
-    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.2);
-  }
-
-  .subject-dimmed {
-    opacity: 0.5;
-    transform: scale(0.99);
-  }
 }

@@ -24,6 +24,5 @@ export class HeaderComponent {
   currentUser = {
     name: 'Super Admin',
     role: 'مدير النظام',
-    id: 'SA001',
   };
 }

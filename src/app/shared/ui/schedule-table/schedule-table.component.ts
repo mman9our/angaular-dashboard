@@ -28,23 +28,23 @@ export class ScheduleTableComponent {
   // Subject selection state
   selectedSubjectId: string | null = null;
 
-  // Subject color mapping - each subject gets a consistent color with modern design
+  // Subject color mapping - each subject gets a consistent color
   subjectColors: { [key: string]: { color: string; textColor: string } } = {
-    math: { color: 'bg-red-50', textColor: 'text-red-600' }, // الحساب - Modern Red
-    arabic: { color: 'bg-violet-50', textColor: 'text-violet-600' }, // لغة عربية - Modern Purple
-    hebrew: { color: 'bg-emerald-50', textColor: 'text-emerald-600' }, // لغة عبرية - Modern Green
-    islamic: { color: 'bg-amber-50', textColor: 'text-amber-600' }, // الدين الإسلامي - Modern Orange
-    sports: { color: 'bg-lime-50', textColor: 'text-lime-600' }, // رياضة - Modern Lime
-    science: { color: 'bg-cyan-50', textColor: 'text-cyan-600' }, // علوم - Modern Cyan
-    'life-skills': { color: 'bg-indigo-50', textColor: 'text-indigo-600' }, // مهارات حياتية - Modern Indigo
-    art: { color: 'bg-orange-50', textColor: 'text-orange-600' }, // رسم - Modern Orange
-    music: { color: 'bg-pink-50', textColor: 'text-pink-600' }, // موسيقى - Modern Pink
-    creativity: { color: 'bg-teal-50', textColor: 'text-teal-600' }, // إبداع - Modern Teal
-    homeland: { color: 'bg-blue-50', textColor: 'text-blue-600' }, // الموطن - Modern Blue
-    reading: { color: 'bg-slate-50', textColor: 'text-slate-600' }, // مطالعة - Modern Slate
-    engineering: { color: 'bg-green-50', textColor: 'text-green-600' }, // هندسة - Modern Green
-    expression: { color: 'bg-emerald-50', textColor: 'text-emerald-600' }, // تعبير - Modern Emerald
-    'key-to-heart': { color: 'bg-sky-50', textColor: 'text-sky-600' }, // مفتاح القلب - Modern Sky
+    math: { color: 'bg-red-50', textColor: 'text-red-600' },
+    arabic: { color: 'bg-violet-50', textColor: 'text-violet-600' },
+    hebrew: { color: 'bg-emerald-50', textColor: 'text-emerald-600' },
+    islamic: { color: 'bg-amber-50', textColor: 'text-amber-600' },
+    sports: { color: 'bg-lime-50', textColor: 'text-lime-600' },
+    science: { color: 'bg-cyan-50', textColor: 'text-cyan-600' },
+    'life-skills': { color: 'bg-indigo-50', textColor: 'text-indigo-600' },
+    art: { color: 'bg-orange-50', textColor: 'text-orange-600' },
+    music: { color: 'bg-pink-50', textColor: 'text-pink-600' },
+    creativity: { color: 'bg-teal-50', textColor: 'text-teal-600' },
+    homeland: { color: 'bg-blue-50', textColor: 'text-blue-600' },
+    reading: { color: 'bg-slate-50', textColor: 'text-slate-600' },
+    engineering: { color: 'bg-green-50', textColor: 'text-green-600' },
+    expression: { color: 'bg-emerald-50', textColor: 'text-emerald-600' },
+    'key-to-heart': { color: 'bg-sky-50', textColor: 'text-sky-600' },
   };
 
   getSubjectColor(subjectId: string) {
