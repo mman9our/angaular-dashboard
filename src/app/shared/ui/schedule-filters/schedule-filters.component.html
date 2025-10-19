@@ -1,15 +1,18 @@
 <!-- Schedule Filters -->
-<div class="bg-white border border-border rounded-lg shadow-sm p-4 mb-4">
+<div class="bg-white border border-border rounded-lg shadow-sm p-4 lg:p-6 mb-4">
   <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
     <!-- Filters Section -->
     <div class="flex flex-col sm:flex-row gap-4">
       <!-- Class Filter -->
       <div class="flex flex-col sm:flex-row sm:items-center gap-2">
-        <label class="text-sm font-medium text-foreground whitespace-nowrap">الصف:</label>
+        <label class="text-sm lg:text-base font-medium text-foreground whitespace-nowrap"
+          >الصف:</label
+        >
         <select
           [(ngModel)]="selectedClass"
           (change)="onClassChange()"
-          class="px-3 py-2 border border-border rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors min-w-[150px]">
+          class="px-4 py-2.5 lg:px-5 lg:py-3 border border-border rounded-lg text-sm lg:text-base bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors min-w-[150px]"
+        >
           <option *ngFor="let classOption of classes" [value]="classOption.id">
             {{ classOption.name }}
           </option>
@@ -18,11 +21,14 @@
 
       <!-- Teacher Filter -->
       <div class="flex flex-col sm:flex-row sm:items-center gap-2">
-        <label class="text-sm font-medium text-foreground whitespace-nowrap">المدرس:</label>
+        <label class="text-sm lg:text-base font-medium text-foreground whitespace-nowrap"
+          >المدرس:</label
+        >
         <select
           [(ngModel)]="selectedTeacher"
           (change)="onTeacherChange()"
-          class="px-3 py-2 border border-border rounded-lg text-sm bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors min-w-[150px]">
+          class="px-4 py-2.5 lg:px-5 lg:py-3 border border-border rounded-lg text-sm lg:text-base bg-white focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors min-w-[150px]"
+        >
           <option *ngFor="let teacher of teachers" [value]="teacher.id">
             {{ teacher.name }}
           </option>
@@ -35,18 +41,15 @@
       <!-- Clear Filters Button -->
       <button
         (click)="clearFilters()"
-        class="px-4 py-2 text-sm font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors">
+        class="px-5 py-2.5 lg:px-6 lg:py-3 text-sm lg:text-base font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors"
+      >
         مسح الفلاتر
       </button>
 
       <!-- Filter Status -->
-      <div class="text-xs text-slate-500">
-        <span *ngIf="selectedClass !== 'all' || selectedTeacher !== 'all'">
-          فلاتر نشطة
-        </span>
-        <span *ngIf="selectedClass === 'all' && selectedTeacher === 'all'">
-          جميع البيانات
-        </span>
+      <div class="text-xs lg:text-sm text-slate-500">
+        <span *ngIf="selectedClass !== 'all' || selectedTeacher !== 'all'"> فلاتر نشطة </span>
+        <span *ngIf="selectedClass === 'all' && selectedTeacher === 'all'"> جميع البيانات </span>
       </div>
     </div>
   </div>

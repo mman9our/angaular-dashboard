@@ -14,9 +14,7 @@ export class HeaderComponent {
     { label: 'ادارة', route: '/management' },
     { label: 'تقارير', route: '/reports' },
     { label: 'استراحة', route: '/break' },
-    { label: 'موافقة المسؤول', route: '/admin-approval' },
     { label: 'اضطرارات', route: '/emergencies' },
-    { label: 'بديل', route: '/substitute' },
     { label: 'تقارير الغياب', route: '/absence-reports' },
     { label: 'المناوبات', route: '/shifts' },
   ];
@@ -25,4 +23,10 @@ export class HeaderComponent {
     name: 'Super Admin',
     role: 'مدير النظام',
   };
+
+  isMobileMenuOpen = false;
+
+  toggleMobileMenu() {
+    this.isMobileMenuOpen = !this.isMobileMenuOpen;
+  }
 }

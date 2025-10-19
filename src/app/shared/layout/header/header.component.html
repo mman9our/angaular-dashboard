@@ -2,17 +2,34 @@
 <header
   class="bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 text-white shadow-lg border-b border-slate-700"
 >
-  <div class="px-8 py-4">
-    <div class="flex items-center justify-between">
-      <!-- Logo -->
-      <div
-        class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg"
-      >
-        <span class="text-white font-bold text-lg">ف</span>
+  <div class="px-4 md:px-8 py-4">
+    <div class="flex items-center justify-between gap-4 flex-wrap md:flex-nowrap">
+      <!-- Logo + Mobile Toggle (grouped to align start) -->
+      <div class="flex items-center gap-2">
+        <div
+          class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg"
+        >
+          <span class="text-white font-bold text-lg">ف</span>
+        </div>
+        <!-- Mobile Menu Toggle -->
+        <button
+          class="lg:hidden p-2 rounded-lg text-slate-300 hover:text-white hover:bg-slate-700 transition-all"
+          (click)="toggleMobileMenu()"
+          aria-label="Toggle navigation menu"
+        >
+          <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
       </div>
 
       <!-- Navigation -->
-      <nav class="flex items-center space-x-6 space-x-reverse">
+      <nav class="hidden lg:flex items-center space-x-6 space-x-reverse">
         <a
           *ngFor="let item of navigationItems"
           [href]="item.route"
@@ -52,6 +69,19 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div *ngIf="isMobileMenuOpen" class="lg:hidden mt-3">
+      <nav class="flex flex-col space-y-2">
+        <a
+          *ngFor="let item of navigationItems"
+          [href]="item.route"
+          class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-200"
+        >
+          {{ item.label }}
+        </a>
+      </nav>
     </div>
   </div>
 </header>

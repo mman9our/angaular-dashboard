@@ -1,5 +1,5 @@
 <!-- Sidebar -->
-<aside class="w-64 bg-sidebar border-l border-sidebar-border h-full">
+<aside class="hidden lg:block w-64 bg-sidebar border-l border-sidebar-border h-full">
   <div class="p-4">
     <!-- Logo/Brand -->
     <div class="mb-6">
@@ -9,15 +9,17 @@
 
     <!-- Navigation -->
     <nav class="space-y-2">
-      <div *ngFor="let item of navItems"
-           class="flex items-center space-x-3 space-x-reverse p-3 rounded-lg cursor-pointer transition-colors"
-           [class.bg-sidebar-accent]="item.isActive"
-           [class.text-sidebar-accent-foreground]="item.isActive"
-           [class.hover:bg-sidebar-primary]="!item.isActive"
-           [class.hover:text-sidebar-primary-foreground]="!item.isActive"
-           [routerLink]="item.route"
-           routerLinkActive="bg-sidebar-accent text-sidebar-accent-foreground"
-           (click)="setActiveItem(item)">
+      <div
+        *ngFor="let item of navItems"
+        class="flex items-center space-x-3 space-x-reverse p-3 rounded-lg cursor-pointer transition-colors"
+        [class.bg-sidebar-accent]="item.isActive"
+        [class.text-sidebar-accent-foreground]="item.isActive"
+        [class.hover:bg-sidebar-primary]="!item.isActive"
+        [class.hover:text-sidebar-primary-foreground]="!item.isActive"
+        [routerLink]="item.route"
+        routerLinkActive="bg-sidebar-accent text-sidebar-accent-foreground"
+        (click)="setActiveItem(item)"
+      >
         <span class="text-lg">{{ item.icon }}</span>
         <span class="font-medium">{{ item.title }}</span>
       </div>
