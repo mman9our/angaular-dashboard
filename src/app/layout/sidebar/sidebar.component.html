@@ -9,20 +9,17 @@
 
     <!-- Navigation -->
     <nav class="space-y-2">
+      @for (item of navItems; track item.id) {
       <div
-        *ngFor="let item of navItems"
-        class="flex items-center space-x-3 space-x-reverse p-3 rounded-lg cursor-pointer transition-colors"
-        [class.bg-sidebar-accent]="item.isActive"
-        [class.text-sidebar-accent-foreground]="item.isActive"
-        [class.hover:bg-sidebar-primary]="!item.isActive"
-        [class.hover:text-sidebar-primary-foreground]="!item.isActive"
-        [routerLink]="item.route"
-        routerLinkActive="bg-sidebar-accent text-sidebar-accent-foreground"
+        class="flex items-center space-x-3 space-x-reverse p-3 rounded-lg cursor-pointer transition-colors hover:bg-sidebar-primary hover:text-sidebar-primary-foreground"
+        [class.bg-sidebar-primary]="item.isActive"
+        [class.text-sidebar-primary-foreground]="item.isActive"
         (click)="setActiveItem(item)"
       >
         <span class="text-lg">{{ item.icon }}</span>
         <span class="font-medium">{{ item.title }}</span>
       </div>
+      }
     </nav>
   </div>
 </aside>

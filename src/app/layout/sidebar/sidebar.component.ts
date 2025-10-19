@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
 
 interface NavItem {
+  id: string;
   title: string;
-  route: string;
   icon: string;
   isActive?: boolean;
 }
@@ -12,51 +10,51 @@ interface NavItem {
 @Component({
   selector: 'app-sidebar',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [],
   templateUrl: './sidebar.component.html',
   styleUrls: ['./sidebar.component.css'],
 })
 export class SidebarComponent {
   navItems: NavItem[] = [
     {
+      id: 'nav-dashboard',
       title: 'لوحة التحكم',
-      route: '/dashboard',
       icon: '📊',
       isActive: true,
     },
     {
+      id: 'nav-schedule',
       title: 'الجدول الدراسي',
-      route: '/dashboard/schedule',
       icon: '📅',
     },
     {
+      id: 'nav-students',
       title: 'الطلاب',
-      route: '/dashboard/students',
       icon: '👥',
     },
     {
+      id: 'nav-teachers',
       title: 'المعلمون',
-      route: '/dashboard/teachers',
       icon: '👨‍🏫',
     },
     {
+      id: 'nav-classes',
       title: 'الصفوف',
-      route: '/dashboard/classes',
       icon: '🏫',
     },
     {
+      id: 'nav-subjects',
       title: 'المواد الدراسية',
-      route: '/dashboard/subjects',
       icon: '📚',
     },
     {
+      id: 'nav-reports',
       title: 'التقارير',
-      route: '/dashboard/reports',
       icon: '📈',
     },
     {
+      id: 'nav-settings',
       title: 'الإعدادات',
-      route: '/dashboard/settings',
       icon: '⚙️',
     },
   ];

@@ -1,0 +1,176 @@
+{
+  "grade-1": [
+    { "number": 1, "subjects": [
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" }
+    ]},
+    { "number": 2, "subjects": [
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" },
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" },
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" }
+    ]},
+    { "number": 3, "subjects": [
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" }
+    ]},
+    { "number": 4, "subjects": [
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" }
+    ]},
+    { "number": 5, "subjects": [
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" }
+    ]},
+    { "number": 6, "subjects": [
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" }
+    ]},
+    { "number": 7, "subjects": [
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" }
+    ]},
+    { "number": 8, "subjects": [
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" }
+    ]}
+  ],
+  "grade-2": [
+    { "number": 1, "subjects": [
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" }
+    ]},
+    { "number": 2, "subjects": [
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" }
+    ]},
+    { "number": 3, "subjects": [
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" }
+    ]},
+    { "number": 4, "subjects": [
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" }
+    ]},
+    { "number": 5, "subjects": [
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" }
+    ]},
+    { "number": 6, "subjects": [
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" }
+    ]},
+    { "number": 7, "subjects": [
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" }
+    ]},
+    { "number": 8, "subjects": [
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" }
+    ]}
+  ],
+  "grade-3": [
+    { "number": 1, "subjects": [
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" }
+    ]},
+    { "number": 2, "subjects": [
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" }
+    ]},
+    { "number": 3, "subjects": [
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" }
+    ]},
+    { "number": 4, "subjects": [
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" }
+    ]},
+    { "number": 5, "subjects": [
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "engineering", "name": "هندسة", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-green-50", "textColor": "text-green-600" }
+    ]},
+    { "number": 6, "subjects": [
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "math", "name": "الحساب", "teacher": "أ. أحمد حسن", "teacherId": "ahmed-hassan", "color": "bg-red-50", "textColor": "text-red-600" },
+      { "id": "life-skills", "name": "مهارات حياتية", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-indigo-50", "textColor": "text-indigo-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "art", "name": "رسم", "teacher": "أ. يوسف حسن", "teacherId": "yousef-hassan", "color": "bg-orange-50", "textColor": "text-orange-600" }
+    ]},
+    { "number": 7, "subjects": [
+      { "id": "arabic", "name": "لغة عربية", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-violet-50", "textColor": "text-violet-600" },
+      { "id": "homeland", "name": "الموطن", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-blue-50", "textColor": "text-blue-600" },
+      { "id": "hebrew", "name": "لغة عبرية", "teacher": "أ. سارة أحمد", "teacherId": "sara-ahmed", "color": "bg-emerald-50", "textColor": "text-emerald-600" },
+      { "id": "science", "name": "علوم", "teacher": "أ. نور إبراهيم", "teacherId": "nour-ibrahim", "color": "bg-cyan-50", "textColor": "text-cyan-600" },
+      { "id": "music", "name": "موسيقى", "teacher": "أ. ليلى محمد", "teacherId": "layla-mohammed", "color": "bg-pink-50", "textColor": "text-pink-600" }
+    ]},
+    { "number": 8, "subjects": [
+      { "id": "sports", "name": "رياضة", "teacher": "أ. خالد محمود", "teacherId": "khalid-mahmoud", "color": "bg-lime-50", "textColor": "text-lime-600" },
+      { "id": "reading", "name": "قراءة", "teacher": "أ. فاطمة علي", "teacherId": "fatima-ali", "color": "bg-slate-50", "textColor": "text-slate-600" },
+      { "id": "islamic", "name": "الدين الإسلامي", "teacher": "أ. محمد عمر", "teacherId": "mohammed-omar", "color": "bg-amber-50", "textColor": "text-amber-600" },
+      { "id": "key-to-heart", "name": "مفتاح القلب", "teacher": "أ. هالة سعيد", "teacherId": "hala-said", "color": "bg-sky-50", "textColor": "text-sky-600" },
+      { "id": "creativity", "name": "إبداع", "teacher": "أ. عمر علي", "teacherId": "omar-ali", "color": "bg-teal-50", "textColor": "text-teal-600" }
+    ]}
+  ]
+}

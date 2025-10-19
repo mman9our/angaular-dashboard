@@ -30,13 +30,14 @@
 
       <!-- Navigation -->
       <nav class="hidden lg:flex items-center space-x-6 space-x-reverse">
+        @for (item of navigationItems; track item.id) {
         <a
-          *ngFor="let item of navigationItems"
           [href]="item.route"
           class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-200"
         >
           {{ item.label }}
         </a>
+        }
       </nav>
 
       <!-- User Info Section -->
@@ -72,16 +73,19 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div *ngIf="isMobileMenuOpen" class="lg:hidden mt-3">
+    @if (isMobileMenuOpen) {
+    <div class="lg:hidden mt-3">
       <nav class="flex flex-col space-y-2">
+        @for (item of navigationItems; track item.id) {
         <a
-          *ngFor="let item of navigationItems"
           [href]="item.route"
           class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-200"
         >
           {{ item.label }}
         </a>
+        }
       </nav>
     </div>
+    }
   </div>
 </header>
