@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ScheduleTableComponent } from '../../../shared';
+import { ScheduleTableComponent } from '../../shared';
 
 @Component({
   selector: 'app-dashboard',
