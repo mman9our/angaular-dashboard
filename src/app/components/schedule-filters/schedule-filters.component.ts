@@ -1,11 +1,10 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { CLASSES, TEACHERS, DEFAULT_CLASS, DEFAULT_TEACHER } from './schedule-filters.types';
 
 @Component({
   selector: 'app-schedule-filters',
   standalone: true,
-  imports: [FormsModule],
+  imports: [],
   templateUrl: './schedule-filters.component.html',
   styleUrls: ['./schedule-filters.component.css'],
 })
@@ -34,11 +33,13 @@ export class ScheduleFiltersComponent implements OnInit {
 
   // ----------------------------- Event Handlers -----------------------------
 
-  onClassChange(): void {
+  onClassChange(event: Event): void {
+    this.selectedClass = (event.target as HTMLSelectElement).value;
     this.emitFilters();
   }
 
-  onTeacherChange(): void {
+  onTeacherChange(event: Event): void {
+    this.selectedTeacher = (event.target as HTMLSelectElement).value;
     this.emitFilters();
   }
 

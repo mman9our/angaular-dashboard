@@ -6,6 +6,7 @@ import {
   ClassId,
   TeacherId,
   SubjectId,
+  Subject,
   Period,
   SchedulesByClass,
   DAYS,
@@ -98,9 +99,9 @@ export class ScheduleTableComponent implements OnInit {
     }
 
     // Keep structure; replace non-matching teacher cells with EMPTY_SUBJECT
-    this.schedule = base.map((period) => ({
+    this.schedule = base.map((period: Period) => ({
       number: period.number,
-      subjects: period.subjects.map((subj) =>
+      subjects: period.subjects.map((subj: Subject) =>
         subj.teacherId === this.currentTeacherId ? subj : EMPTY_SUBJECT
       ),
     }));
